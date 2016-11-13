@@ -1,0 +1,11 @@
+{
+  "name": "markdowneditor",
+  "version": "0.0.1",
+  "description": "Markdown editor for arsebot",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Vicente Canales",
+  "license": "MIT"
+}
