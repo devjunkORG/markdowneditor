@@ -4,8 +4,24 @@
   "description": "Markdown editor for arsebot",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server --content-base build/"
   },
   "author": "Vicente Canales",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "draft-js": "^0.9.1",
+    "draft-js-export-markdown": "^0.2.2",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "webpack": "^1.13.3"
+  }
 }
